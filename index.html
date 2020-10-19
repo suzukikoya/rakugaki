@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lamg="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>お絵かき</title>
+
+    <style>
+    /* 下記の説明　無駄な余白を消す */
+    body{
+      margin:0;
+      position:relative;
+    }
+      #canvas{
+        /* 下記の説明　canvasの色がわかりづらいので色を変えてあげる */
+        background-color: #aaa;
+      }
+      #btn{
+        position:absolute;
+        top:10px;
+        left:10px;
+        width:80px;
+        height:50px;
+      }
+    </style>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <button id = "btn">クリア</button>
+    <canvas id="canvas"></canvas>
+
+    <script src="main.js"></script>
+  </body>
+</html>
